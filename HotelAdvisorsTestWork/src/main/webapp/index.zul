@@ -1,0 +1,19 @@
+<?variable-resolver class="org.tkalenko.test.work.hotel.advisors.zk.ContactResolver"?>
+<grid>
+    <columns>
+        <column label="Id" sort="auto"/>
+        <column label="Name" sort="auto"/>
+        <column label="Surname" sort="auto"/>
+        <column label="Patronymic" sort="auto"/>
+        <column label="Phone" sort="auto"/>
+    </columns>
+    <rows>
+        <row forEach="${contacts}">
+            <label value="${each.id}"/>
+            <label value="${each.name}"/>
+            <label value="${each.surname}"/>
+            <label value="${each.patronymic}"/>
+            <label value="${each.phone}"/>
+        </row>
+    </rows>
+</grid>
