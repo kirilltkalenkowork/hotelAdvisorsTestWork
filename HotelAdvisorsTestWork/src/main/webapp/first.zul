@@ -1,7 +1,0 @@
-<window title="Contact info" border="normal">
-    Enter a contact id: <textbox id="input"/>
-    <button id="search" label="Search" apply="org.tkalenko.test.work.hotel.advisors.zk.ContactInfoRetriever"/>
-    <button id="all" label="All" apply="org.tkalenko.test.work.hotel.advisors.zk.ContactInfoRetriever"/>
-    <vlayout id="contact"/>
-    <vlayout id="addresses"/>
-</window>
